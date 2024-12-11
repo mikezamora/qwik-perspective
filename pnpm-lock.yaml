@@ -20,6 +20,9 @@ importers:
       '@finos/perspective-viewer-datagrid':
         specifier: ^3.2.0
         version: 3.2.0
+      superstore-arrow:
+        specifier: ^3.0.0
+        version: 3.0.0
     devDependencies:
       '@builder.io/qwik':
         specifier: ^1.11.0
@@ -1980,6 +1983,9 @@ packages:
 
   style-to-object@1.0.8:
     resolution: {integrity: sha512-xT47I/Eo0rwJmaXC4oilDGDWLohVhR6o/xAQcPQN8q6QBuZVL8qMYL85kLmST5cPjAorwvqIA4qXTRQoYHaL6g==}
+
+  superstore-arrow@3.0.0:
+    resolution: {integrity: sha512-ejqksUs3HEIcp8808T6jBvjecT3NHFoivtXheqXpSMv7GRP+G3+CReTulMfCfxuMOhI4rHag2oSyaX9OyLisFQ==}
 
   supports-color@7.2.0:
     resolution: {integrity: sha512-qpCAvRl9stuOHveKsn7HncJRvv501qIacKzQlO/+Lwxc9+0q2wLyv4Dfvt80/DPn2pqOBsJdDiogXGR9+OvwRw==}
@@ -4614,6 +4620,8 @@ snapshots:
   style-to-object@1.0.8:
     dependencies:
       inline-style-parser: 0.2.4
+
+  superstore-arrow@3.0.0: {}
 
   supports-color@7.2.0:
     dependencies:
