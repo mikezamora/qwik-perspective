@@ -2,3 +2,6 @@
 
 // Add global `vite/client` types. For more info, see: https://vitejs.dev/guide/features#client-types
 /// <reference types="vite/client" />
+
+declare module "@finos/perspective-viewer-d3fc";
+declare module "@finos/perspective-viewer-datagrid";
